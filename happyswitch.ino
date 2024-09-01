@@ -19,12 +19,12 @@
  * ###################
  * NAME  #  PIN NUMBER
  * ###################
- * CH1   |   9
- * CH2   |  10
- * CH3   |  11
+ * CH1   |  18
+ * CH2   |  15
+ * CH3   |  14
  * ____  |
- * SOLO  |  12
- * FX    |  13
+ * SOLO  |  16
+ * FX    |  10
  * 
  * 
  * OUTPUT PINS:
@@ -33,11 +33,11 @@
  * #######################
  * VCHA      |  2
  * VCHB      |  3
- * SOLO      |  4
- * FX        |  5
- * CH1 LED   |  6
- * CH2 LED   |  7
- * CH3 LED   |  8
+ * SOLO      |  7
+ * FX        |  8
+ * CH1 LED   |  4
+ * CH2 LED   |  5
+ * CH3 LED   |  6
  * 
  * FX is "FX bypass". LED ON = FX bypass, LED off = FX on
  * 
@@ -60,15 +60,15 @@
 #define DEBUG_BAUD_RATE 38400		// TX baudrate (DEBUG text)
 #define MIDI_CHANNEL 0x00			// 0x00 = Channel 1
 
-#define CH1_LED_PIN 6
-#define CH2_LED_PIN 7
-#define CH3_LED_PIN 8
+#define CH1_LED_PIN 4
+#define CH2_LED_PIN 5
+#define CH3_LED_PIN 6
 
-#define CH1_BUTTON_PIN 9
-#define CH2_BUTTON_PIN 10
-#define CH3_BUTTON_PIN 11
-#define SOLO_BUTTON_PIN 12
-#define FX_BUTTON_PIN 13
+#define CH1_BUTTON_PIN 18
+#define CH2_BUTTON_PIN 15
+#define CH3_BUTTON_PIN 14
+#define SOLO_BUTTON_PIN 16
+#define FX_BUTTON_PIN 10
 
 uint8_t programChangeDetected = 0;
 uint8_t currentProgram, currentConfig = 0x00;
