@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/seanmartz/Documents/HappySwitchV2/HappySwitchV2.kicad_sch</source>
+    <date>Sunday, September 01, 2024 at 06:22:37 PM</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Dual Rectifier Foot Pedal</title>
+        <company/>
+        <rev>2</rev>
+        <date/>
+        <source>HappySwitchV2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>1N4148W-13-L:SOD123_DIO</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number ">4878-1N4148WCT-ND</field>
+        <field name="MPN">1N4148W</field>
+        <field name="Manufacturer">Diotec Semiconductor</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="DigiKey Part Number " value="4878-1N4148WCT-ND"/>
+      <property name="Manufacturer" value="Diotec Semiconductor"/>
+      <property name="MPN" value="1N4148W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f61b864c-68b8-4117-8d2d-b229c5da0d5d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Green 3.1</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd84c6f8-3e1a-4782-8a29-c064febdf8d7</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Orange 2.1</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>446a4906-fc7d-4e17-a773-074a3a0c0025</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Red 2.1</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ffba974-8f8f-4b68-a30f-5635dfdb506a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>1N4148W-13-L:SOD123_DIO</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number ">4878-1N4148WCT-ND</field>
+        <field name="MPN">1N4148W</field>
+        <field name="Manufacturer">Diotec Semiconductor</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="DigiKey Part Number " value="4878-1N4148WCT-ND"/>
+      <property name="Manufacturer" value="Diotec Semiconductor"/>
+      <property name="MPN" value="1N4148W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6def77eb-08fa-4a0b-9e17-91ee3e82d0f1</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>1N4148W-13-L:SOD123_DIO</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number ">4878-1N4148WCT-ND</field>
+        <field name="MPN">1N4148W</field>
+        <field name="Manufacturer">Diotec Semiconductor</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="DigiKey Part Number " value="4878-1N4148WCT-ND"/>
+      <property name="Manufacturer" value="Diotec Semiconductor"/>
+      <property name="MPN" value="1N4148W"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83985eea-27b9-4ce5-ab09-21879b40bca6</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Purple 3.2</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af1abfe7-8620-4b0c-8fcb-cd2948c1badc</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>Blue 2.1</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e6a3c2e-787d-44dc-9adb-2a6401c7e522</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DIN-8</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <libsource lib="Connector" part="DIN-8" description="8-pin DIN connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2138554-11b3-49b0-82c1-980d08ea9a79</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DIN-5_180degree</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</datasheet>
+      <libsource lib="Connector" part="DIN-5_180degree" description="5-pin DIN connector (5-pin DIN-5 stereo)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b57aab32-3967-4237-ae6a-1369055e2324</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>4N25-X007T</value>
+      <footprint>4n25-x007t:X007_VIS</footprint>
+      <datasheet>4N25-X007T</datasheet>
+      <fields>
+        <field name="DigiKey Part Number ">4N25-X007TCT-ND</field>
+        <field name="MPN">4N25-X007T</field>
+        <field name="Manufacturer">Vishay Semiconductor Opto Division</field>
+      </fields>
+      <libsource lib="4n25-x007t" part="4N25-X007T" description=""/>
+      <property name="DigiKey Part Number " value="4N25-X007TCT-ND"/>
+      <property name="Manufacturer" value="Vishay Semiconductor Opto Division"/>
+      <property name="MPN" value="4N25-X007T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c5489e2-503d-4cb2-b4da-4886f25b1c38</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2668386d-4de3-490f-80b7-e4b40b97699a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>(sheet_instances</datasheet>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71406cb7-cc20-4574-983c-4e9269199cf5</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4878d5cf-e5e5-4626-b8e4-b3b0a2f41ec1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87547453-631e-4ab4-ae32-fd9d5bbec9ca</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1dd9385-e946-444d-a250-ef00a24896ff</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0af633a8-875e-4453-b9ad-80768203354a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b99c866-1fc6-42ae-83a8-2c9540e5cab1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB4700VCT-ND</field>
+        <field name="MPN">ERA-6VEB4700V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB4700VCT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERA-6VEB4700V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c553598-3d40-472f-83f3-1f8f55250b7f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB4701VCT-ND</field>
+        <field name="MPN">ERA-6VEB4701V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB4701VCT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERA-6VEB4701V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1f6d3e4-a1d9-4375-921e-e9fa9fc5e4c1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca1a2840-e6d2-4f75-8565-f4c77d34251d</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P21076CT-ND</field>
+        <field name="MPN">ERJ-PB6D3301V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P21076CT-ND"/>
+      <property name="MPN" value="ERJ-PB6D3301V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653d979c-d903-414a-8f6d-3be8fb293d28</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5K23</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20676CT-ND</field>
+        <field name="MPN">ERJ-PB6B5231V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20676CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B5231V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2dcb72d-4aa2-43e9-99c5-6735b06b6c8b</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1003VCT-ND</field>
+        <field name="MPN">ERA-6VEB1003V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1003VCT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERA-6VEB1003V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2fbd4b-bd78-4a40-a408-4130e16b7e47</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>3K3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P21076CT-ND</field>
+        <field name="MPN">ERJ-PB6D3301V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P21076CT-ND"/>
+      <property name="MPN" value="ERJ-PB6D3301V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33ba1836-6dc8-45e1-9eee-ea6752a92b38</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>999d042d-b170-421d-9684-aece152bb1eb</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>168322f1-15ab-4a05-b76e-d4f0f5b69d84</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11610012-4c01-4a37-bfdf-d0a42d10ea0c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P20516CT-ND</field>
+        <field name="MPN">ERJ-PB6B2200V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P20516CT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-PB6B2200V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>929cf5d9-7d9e-4b03-9bc9-bb03c2b3b963</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68e970f5-e78d-4b0e-affc-9d4893f54a4f</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26e31d07-ee14-4a15-aa56-e142c0c4960c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d337b59-ae56-4705-8b8d-d94d2a2ee4f8</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e6b8e49-fb7e-4bc5-9b17-08aa31d6e906</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">10-ERA-6VEB1002VCT-ND</field>
+        <field name="MPN">ERA-6VEB1002V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="DigiKey Part Number " value="10-ERA-6VEB1002VCT-ND"/>
+      <property name="MPN" value="ERA-6VEB1002V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77211a8d-0b8f-42bc-9964-5a958c3a45ff</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DigiKey Part Number ">P0.0ACT-ND</field>
+        <field name="MPN">ERJ-6GEY0R00V</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey Part Number " value="P0.0ACT-ND"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-6GEY0R00V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05792907-2d21-4d6f-8bc5-58806ae3a25e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15863d8d-b1b9-4485-a591-250a1840dfb7</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e444c4ea-02f7-4b85-ba4b-35aa4b1aeb2f</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e6b7a9f-ff13-4b46-b7be-ad3880b26df4</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f81ecdf-3e0f-4850-ba23-d14164b43730</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dac6153-9dad-440c-833e-f17be60bf894</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Sparkfun_Pro_Micro</value>
+      <footprint>Arduino:Sparkfun_Pro_Micro</footprint>
+      <datasheet>https://www.sparkfun.com/products/12640</datasheet>
+      <libsource lib="Arduino" part="Sparkfun_Pro_Micro" description="Sparkfun Pro Micro"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HappySwitchV2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e88a6c5d-6d8f-4cae-86aa-a595d14fed58</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4n25-x007t" part="4N25-X007T">
+      <docs>4N25-X007T</docs>
+      <footprints>
+        <fp>X007_VIS</fp>
+        <fp>X007_VIS-M</fp>
+        <fp>X007_VIS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">4N25-X007T</field>
+        <field name="Footprint">X007_VIS</field>
+        <field name="Datasheet">4N25-X007T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino" part="Sparkfun_Pro_Micro">
+      <description>Sparkfun Pro Micro</description>
+      <docs>https://www.sparkfun.com/products/12640</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Sparkfun_Pro_Micro</field>
+        <field name="Footprint">Arduino:Sparkfun_Pro_Micro</field>
+        <field name="Datasheet">https://www.sparkfun.com/products/12640</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="~D3" type="bidirectional"/>
+        <pin num="7" name="D4/A6" type="bidirectional"/>
+        <pin num="8" name="~D5" type="bidirectional"/>
+        <pin num="9" name="~D6/A7" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8/A8" type="bidirectional"/>
+        <pin num="12" name="~D9/A9" type="bidirectional"/>
+        <pin num="13" name="~D10/A10" type="bidirectional"/>
+        <pin num="14" name="D16" type="bidirectional"/>
+        <pin num="15" name="D14" type="bidirectional"/>
+        <pin num="16" name="D15" type="bidirectional"/>
+        <pin num="17" name="D18/A0" type="bidirectional"/>
+        <pin num="18" name="D19/A1" type="bidirectional"/>
+        <pin num="19" name="D20/A2" type="bidirectional"/>
+        <pin num="20" name="D21/A3" type="bidirectional"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DIN-5_180degree">
+      <description>5-pin DIN connector (5-pin DIN-5 stereo)</description>
+      <docs>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</docs>
+      <footprints>
+        <fp>DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN-5_180degree</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DIN-8">
+      <description>8-pin DIN connector</description>
+      <docs>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</docs>
+      <footprints>
+        <fp>DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN-8</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4n25-x007t">
+      <uri>/Users/seanmartz/Documents/HappySwitch/ul_4N25-X007T/KiCADv6/2024-08-09_22-39-34.kicad_sym</uri>
+    </library>
+    <library logical="Arduino">
+      <uri>/Users/seanmartz/Documents/kicad-lib-arduino-main/Arduino.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad copy/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad copy/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad copy/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad copy/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Arduino_D2">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="Arduino_D3">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="~D3" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Arduino_D4">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4/A6" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Arduino_D5">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="~D5" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Arduino_D6">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~D6/A7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Arduino_D7">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Arduino_D8">
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J1" pin="7" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="D8/A8" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Arduino_D10">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~D10/A10" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Arduino_D14">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="D14" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Arduino_D15">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="D15" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Arduino_D16">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="D16" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Arduino_D18">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="D18/A0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Arduino_RX">
+      <node ref="Q1" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="16" name="MESA_VCH">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad6)">
+      <node ref="Q1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="VCC">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="~D9/A9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="D19/A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="D20/A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="D21/A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="RST" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="RAW" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
